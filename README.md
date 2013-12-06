@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/julianhyde/eigenbase-properties.png)](https://travis-ci.org/julianhyde/eigenbase-properties)
+
 eigenbase-properties
 ====================
 
