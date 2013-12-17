@@ -82,9 +82,9 @@ public class PersistentStringProperty
     /**
      * Sets the value of this property.
      *
-     * <p/>This method is synchronized to prevent multiple threads from
+     * <p>This method is synchronized to prevent multiple threads from
      * attempting to initialize the property storage ({@link #storage})
-     * simultaneously.
+     * simultaneously.</p>
      *
      * @return The previous value, or the default value if not set.
      */

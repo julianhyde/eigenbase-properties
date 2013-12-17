@@ -27,8 +27,7 @@ import java.util.*;
  *
  * <p>For example:
  *
- * <blockquote><code>
- * <pre>
+ * <blockquote><pre>
  * class MyProperties extends Properties {
  *     public final IntegerProperty DebugLevel =
  *         new IntegerProperty(this, "com.acme.debugLevel", 10);
@@ -39,7 +38,7 @@ import java.util.*;
  * props.DebugLevel.set(20);
  * System.out.println(props.DebugLevel.get()); // prints "20"
  * </pre>
- * </code></blockquote>
+ * </blockquote>
  *
  * @author jhyde
  * @version $Id$
@@ -208,8 +207,8 @@ public abstract class Property
     /**
      * Converts a string to a boolean.
      *
-     * <p/>Note that {@link Boolean#parseBoolean(String)} is similar, but only
-     * exists from JDK 1.5 onwards, and only accepts 'true'.
+     * <p>Note that {@link Boolean#parseBoolean(String)} is similar, but only
+     * exists from JDK 1.5 onwards, and only accepts 'true'.</p>
      *
      * @return true if the string is "1" or "true" or "yes", ignoring case and
      * any leading or trailing spaces
@@ -236,13 +235,13 @@ public abstract class Property
     /**
      * A trigger list a list of triggers associated with a given property.
      *
-     * <p/>A trigger list is associated with a property key, and contains zero
-     * or more {@link Trigger} objects.
+     * <p>A trigger list is associated with a property key, and contains zero
+     * or more {@link Trigger} objects.</p>
      *
-     * <p/>Each {@link Trigger} is stored in a {@link WeakReference} so that
+     * <p>Each {@link Trigger} is stored in a {@link WeakReference} so that
      * when the Trigger is only reachable via weak references the Trigger will
      * be be collected and the contents of the WeakReference will be set to
-     * null.
+     * null.</p>
      */
     private static class TriggerList
         extends ArrayList
