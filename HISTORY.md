@@ -2,6 +2,11 @@
 
 For a full list of releases, see <a href="https://github.com/julianhyde/eigenbase-properties/releases">github</a>.
 
+## <a href="https://github.com/julianhyde/eigenbase-properties/releases/tag/eigenbase-properties-1.1.6">1.1.6</a> / 2020-11-12
+
+* Upgrade junit to 4.13.1
+* Require JDK 8 or higher
+
 ## <a href="https://github.com/julianhyde/eigenbase-properties/releases/tag/eigenbase-properties-1.1.5">1.1.5</a> / 2015-03-05
 
 * Publish releases to <a href="http://search.maven.org/">Maven Central</a>

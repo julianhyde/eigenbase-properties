@@ -6,7 +6,9 @@ Type-safe access to Java system properties.
 
 # Prerequisites
 
-Eigenbase-properties requires git, maven (3.0.4 or later), and JDK 1.6 or later (JDK 1.7 preferred).
+Eigenbase-properties requires git,
+Apache Maven (3.5.3 or later),
+and JDK 8 or later.
 
 # Download and build
 
@@ -18,9 +20,9 @@ $ mvn install
 
 # More information
 
-* License: Apache License, Version 2.0.
+* License: Apache License, Version 2.0
 * Author: Julian Hyde
-* Source code: http://github.com/julianhyde/eigenbase-properties
-* Developers list: http://groups.google.com/group/optiq-dev
+* Source code: https://github.com/julianhyde/eigenbase-properties
+* Developers list: https://mail-archives.apache.org/mod_mbox/calcite-dev
 * Continuous integration: https://travis-ci.org/julianhyde/eigenbase-properties
 * <a href="HISTORY.md">Release notes and history</a>

@@ -48,7 +48,7 @@
       <subscribe>dev-subscribe@calcite.incubator.apache.org</subscribe>
       <unsubscribe>dev-unsubscribe@calcite.incubator.apache.org</unsubscribe>
       <post>dev@calcite.incubator.apache.org</post>
-      <archive>http://mail-archives.apache.org/mod_mbox/incubator-calcite-dev</archive>
+      <archive>http://mail-archives.apache.org/mod_mbox/calcite-dev</archive>
     </mailingList>
   </mailingLists>
 
@@ -78,6 +78,14 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <executions>
           <execution>
@@ -103,6 +111,7 @@
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
+        <version>4.2.1</version>
         <extensions>true</extensions>
         <configuration>
           <instructions>
@@ -116,7 +125,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -128,7 +137,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
           <links>
-            <link>http://docs.oracle.com/javase/7/docs/api/</link>
+            <link>https://docs.oracle.com/javase/8/docs/api/</link>
           </links>
         </configuration>
       </plugin>
